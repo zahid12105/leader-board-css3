@@ -17,12 +17,13 @@ main {
 .section-title {
     color: #562EFF;
     font-size: 24px;
-    padding: 30px;
+    
 }
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-row-gap: 30px;
 }
 .player {
     display: flex;
